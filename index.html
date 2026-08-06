@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison Élite | Haute Pâtisserie & Executive Beverage Menu</title>
+  <meta name="description" content="A 3-Star Michelin culinary experience designed for corporate dining lounges. Featuring artisan brioche donuts, grand cru chocolate creations, and rare milk concoctions.">
+  <meta name="keywords" content="Maison Elite, Haute Patisserie, Corporate Catering, Gourmet Donuts, Fine Milk Drinks, Michelin Star Pastry">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient Background Glow -->
+  <div class="ambient-glow"></div>
+
+  <!-- Header & Top Navigation -->
+  <header class="header">
+    <div class="container header-content">
+      <a href="#" class="brand-logo">
+        <div class="brand-emblem">MÉ</div>
+        <div>
+          <span class="brand-name">Maison Élite</span>
+          <span class="brand-subtitle">Haute Pâtisserie & Dairy Bar</span>
+        </div>
+      </a>
+
+      <!-- Subtle Hidden Language Toggle Button -->
+      <button class="subtle-lang-toggle" id="subtleLangToggle" title="Toggle Language">
+        <span class="lang-dot"></span>
+        <span id="currentLangText">ES</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="container">
+    <!-- Hero Executive Banner -->
+    <section class="hero-section">
+      <span class="hero-tag" id="heroTag">Haute Pâtisserie & Executive Beverage Bar</span>
+      <h1 class="hero-title" id="heroTitle">Maison Élite <span>Menu</span></h1>
+      <p class="hero-description" id="heroDesc">
+        A 3-star Michelin culinary concept curated for executive dining lounge experiences. Featuring artisanal brioche donuts, grand cru chocolate creations, and rare single-origin dairy concoctions.
+      </p>
+    </section>
+
+    <!-- Controls & Interactive Filters Bar -->
+    <section class="controls-bar">
+      <div class="controls-row-top">
+        <div class="category-tabs">
+          <button class="tab-btn active" data-category="all" id="tabAll">All Creations</button>
+          <button class="tab-btn" data-category="desserts" id="tabDesserts">Haute Pâtisserie</button>
+          <button class="tab-btn" data-category="donuts" id="tabDonuts">Executive Donuts</button>
+          <button class="tab-btn" data-category="beverages" id="tabBeverages">Milk Selection</button>
+        </div>
+
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" class="search-input" placeholder="Search by dish, ingredient, terroir...">
+        </div>
+      </div>
+
+      <!-- Sensory Filter Chips -->
+      <div class="sensory-filters">
+        <span class="sensory-filter-label" id="sensoryLabel">Sensory Profile:</span>
+        <button class="sensory-chip active" data-sensory="all" id="chipAll">All Profiles</button>
+        <button class="sensory-chip" data-sensory="cocoa" id="chipCocoa">Cocoa & Dark</button>
+        <button class="sensory-chip" data-sensory="roasted" id="chipRoasted">Roasted & Nutty</button>
+        <button class="sensory-chip" data-sensory="floral" id="chipFloral">Floral & Botanical</button>
+        <button class="sensory-chip" data-sensory="citrus" id="chipCitrus">Citrus & Fresh</button>
+        <button class="sensory-chip" data-sensory="spiced" id="chipSpiced">Spiced & Warm</button>
+        <button class="sensory-chip" data-sensory="umami" id="chipUmami">Savory & Umami</button>
+      </div>
+    </section>
+
+    <!-- Menu Cards Grid -->
+    <section class="menu-grid" id="menuGrid">
+      <!-- Injected by app.js -->
+    </section>
+  </main>
+
+  <!-- Tasting Experience Modal (Experiencia de Cata) -->
+  <div class="modal-overlay" id="tastingModal">
+    <div class="modal-window">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">✕</button>
+      <div class="modal-grid">
+        <div class="modal-media">
+          <img src="" id="modalMediaImg" alt="Dish photo">
+        </div>
+        <div class="modal-content">
+          <span class="modal-subtitle" id="modalSubtitle">Category</span>
+          <h2 class="modal-title" id="modalTitle">Dish Title</h2>
+          
+          <div class="modal-section-title" id="modalTechniqueTitle">Michelin Culinary Technique</div>
+          <p class="modal-description" id="modalDescription">Full technical & tasting description...</p>
+
+          <div class="modal-section-title" id="modalSensoryTitle">Organoleptic Profile</div>
+          <div class="sensory-bars" id="modalSensoryBars">
+            <!-- Injected by app.js -->
+          </div>
+
+          <div class="pairing-box" id="modalPairingBox">
+            <!-- Injected by app.js -->
+          </div>
+
+          <div id="modalAllergensBox">
+            <!-- Injected by app.js -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">Maison Élite</div>
+      <p id="footerText">© Maison Élite Haute Gastronomie. Curated for Executive Boardrooms & Fine Corporate Dining.</p>
+    </div>
+  </footer>
+
+  <!-- Application Script -->
+  <script src="app.js"></script>
+</body>
+</html>
