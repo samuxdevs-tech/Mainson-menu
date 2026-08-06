@@ -826,8 +826,8 @@ body {
 
 /* 2. SELLO */
 .letter-wax-seal-box {
-  width: 120px;
-  height: 120px;
+  width: 170px;
+  height: 170px;
   margin-bottom: 28px;
   position: relative;
   display: flex;
@@ -845,23 +845,17 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 10px 25px rgba(180, 20, 20, 0.65)) drop-shadow(0 0 15px rgba(212, 175, 55, 0.3));
+  filter: drop-shadow(0 12px 30px rgba(180, 20, 20, 0.7)) drop-shadow(0 0 20px rgba(212, 175, 55, 0.35));
 }
 
 /* 3. GRADO */
-.letter-grade-badge {
-  background: rgba(212, 175, 55, 0.12);
-  border: 1px solid var(--color-gold-base);
-  color: #ffffff;
+.letter-grade-text {
+  color: var(--color-gold-light);
   font-family: var(--font-sans);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 2.5px;
-  padding: 8px 26px;
-  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 4px;
   text-transform: uppercase;
-  box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
-  display: inline-block;
 }
 
 /* ==========================================================================
@@ -926,9 +920,9 @@ body {
   }
 
   .letter-wax-seal-box {
-    width: 90px;
-    height: 90px;
-    margin-bottom: 18px;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 20px;
   }
 }
 
