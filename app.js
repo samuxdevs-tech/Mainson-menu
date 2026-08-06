@@ -258,7 +258,7 @@ const menuData = [
   {
     id: "vaso-leche-organica",
     category: "beverages",
-    image: "./assets/elixir_celeste_tahiti.jpg",
+    image: "./assets/vaso_leche.jpg",
     isDonut: false,
     badge: { en: "Pure Artisan Milk", es: "Leche Orgánica de Origen" },
     sensoryTags: ["creamy", "vanilla", "umami"],
