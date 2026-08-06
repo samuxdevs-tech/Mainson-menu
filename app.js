@@ -99,37 +99,6 @@ const menuData = [
     }
   },
   {
-    id: "dona-truffe-gianduja",
-    category: "desserts",
-    image: "./assets/dona_truffe_gianduja.jpg",
-    isDonut: true,
-    badge: { en: "Executive Donut", es: "Dona de Autor" },
-    sensoryTags: ["umami", "woody", "creamy"],
-    allergens: ["Gluten", "Dairy", "Tree Nuts", "Eggs"],
-    title: {
-      en: "Black Truffle, Gianduja & Maldon Salt Donut",
-      es: "Dona Brioche de Trufa Negra, Gianduja & Sal Maldon"
-    },
-    shortDescription: {
-      en: "Dark cocoa brioche infused with fresh Périgord black truffle, Chuao gianduja crémeux, dark glaze and Maldon salt flakes.",
-      es: "Brioche de cacao infusionado con trufa negra de Périgord, crémeux de Gianduja Chuao al 70%, glaseado oscuro y escamas de sal Maldon."
-    },
-    fullDescription: {
-      en: "A savory-sweet masterpiece fusing fresh Tuber melanosporum truffle infused into double cream at 40°C with 70% Chuao Single-Origin Venezuelan chocolate gianduja. Enhanced by flaky Maldon sea salt crystals that melt across the tongue at body temperature.",
-      es: "Una obra maestra dulce-salada que fusiona trufa negra fresca Tuber melanosporum infusionada en crema a 40°C con gianduja de chocolate venezolano Chuao al 70%. Realzada con cristales de sal Maldon que se funden en el paladar."
-    },
-    sensoryProfile: {
-      intensity: 90,
-      sweetness: 40,
-      acidity: 10,
-      texture: { en: "Dense & Silky Umami", es: "Densa y Umami Sedoso" }
-    },
-    pairing: {
-      en: "Perfect for executive evening receptions. Pairs with Cognac XO Grande Champagne or Dark Roast Ristretto.",
-      es: "Perfecto para recepciones ejecutivas nocturnas. Marida con Cognac XO Grande Champagne o Ristretto Tostado Oscuro."
-    }
-  },
-  {
     id: "tartelette-citron-amalfi",
     category: "desserts",
     image: "./assets/tartelette_citron_amalfi.jpg",
@@ -258,7 +227,7 @@ const menuData = [
   {
     id: "vaso-leche-organica",
     category: "beverages",
-    image: "./assets/vaso_leche.jpg",
+    image: "./assets/vaso_leche_michelin.jpg",
     isDonut: false,
     badge: { en: "Pure Artisan Milk", es: "Leche Orgánica de Origen" },
     sensoryTags: ["creamy", "vanilla", "umami"],
