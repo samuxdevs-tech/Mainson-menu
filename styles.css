@@ -757,11 +757,11 @@ body {
 /* Simulación de Frente de Carta de Alta Repostería */
 .letter-cover-card {
   width: 100%;
-  max-width: 440px;
+  max-width: 520px;
   background: linear-gradient(145deg, #13151b 0%, #0a0b0e 100%);
   border: 1px solid rgba(212, 175, 55, 0.4);
   border-radius: 16px;
-  padding: 32px 24px 24px;
+  padding: 38px 28px 22px;
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.95), 0 0 35px rgba(212, 175, 55, 0.15);
   position: relative;
   text-align: center;
@@ -775,7 +775,7 @@ body {
 .letter-cover-card::before {
   content: '';
   position: absolute;
-  inset: 8px;
+  inset: 10px;
   border: 1px dashed rgba(212, 175, 55, 0.25);
   border-radius: 10px;
   pointer-events: none;
@@ -783,17 +783,17 @@ body {
 
 .letter-stamp-corner {
   position: absolute;
-  top: 14px;
-  right: 16px;
+  top: 16px;
+  right: 18px;
   border: 1px dashed var(--color-gold-base);
-  padding: 3px 8px;
+  padding: 3px 9px;
   border-radius: 4px;
   transform: rotate(-2deg);
   background: rgba(212, 175, 55, 0.05);
 }
 
 .stamp-border {
-  font-size: 8.5px;
+  font-size: 9px;
   letter-spacing: 1.5px;
   color: var(--color-gold-light);
   text-transform: uppercase;
@@ -805,30 +805,31 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 12px 0 4px;
+  margin: 8px 0 0;
   width: 100%;
 }
 
-/* 1. NOMBRE */
+/* 1. NOMBRE (Pegado al sello) */
 .letter-recipient-name {
   font-family: var(--font-serif);
-  font-size: clamp(20px, 5vw, 26px);
+  font-size: clamp(22px, 5.5vw, 32px);
   font-weight: 700;
-  letter-spacing: 2.5px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   background: var(--color-gold-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
-  line-height: 1.2;
+  margin-bottom: 2px;
+  line-height: 1.15;
   padding: 0 5px;
 }
 
-/* 2. SELLO */
+/* 2. SELLO (Grande y sin espacio vertical) */
 .letter-wax-seal-box {
-  width: 140px;
-  height: 140px;
-  margin-bottom: 16px;
+  width: 160px;
+  height: 160px;
+  margin-top: 0;
+  margin-bottom: 2px;
   position: relative;
   display: flex;
   align-items: center;
@@ -848,14 +849,15 @@ body {
   filter: drop-shadow(0 10px 25px rgba(180, 20, 20, 0.7)) drop-shadow(0 0 15px rgba(212, 175, 55, 0.35));
 }
 
-/* 3. GRADO */
+/* 3. GRADO (Pegado inmediatamente debajo del sello) */
 .letter-grade-text {
   color: var(--color-gold-light);
   font-family: var(--font-sans);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
-  letter-spacing: 3px;
+  letter-spacing: 3.5px;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 /* ==========================================================================
