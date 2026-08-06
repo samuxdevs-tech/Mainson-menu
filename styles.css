@@ -733,6 +733,7 @@ body {
   background: radial-gradient(circle at center, #15181e 0%, #07080a 100%);
   z-index: 10000;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -752,6 +753,24 @@ body {
   transform: scale(1.08);
   visibility: hidden;
   pointer-events: none;
+}
+
+/* Texto dorado pequeñito flotando debajo del recuadro */
+.letter-outer-hint {
+  margin-top: 20px;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-gold-light);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  opacity: 0.85;
+  animation: pulseHint 2.2s ease-in-out infinite;
+}
+
+@keyframes pulseHint {
+  0%, 100% { opacity: 0.45; transform: translateY(0); }
+  50% { opacity: 0.95; transform: translateY(-3px); }
 }
 
 /* Simulación de Frente de Carta de Alta Repostería */
