@@ -805,14 +805,30 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px 0 20px;
+  margin: 20px 0 10px;
   width: 100%;
 }
 
+/* 1. NOMBRE */
+.letter-recipient-name {
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 6vw, 36px);
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: var(--color-gold-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 28px;
+  line-height: 1.25;
+  padding: 0 10px;
+}
+
+/* 2. SELLO */
 .letter-wax-seal-box {
-  width: 110px;
-  height: 110px;
-  margin-bottom: 24px;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 28px;
   position: relative;
   display: flex;
   align-items: center;
@@ -832,68 +848,20 @@ body {
   filter: drop-shadow(0 10px 25px rgba(180, 20, 20, 0.65)) drop-shadow(0 0 15px rgba(212, 175, 55, 0.3));
 }
 
-.letter-subtitle {
-  font-size: 10px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: var(--color-gold-base);
-  margin-bottom: 12px;
-  font-weight: 500;
-  display: block;
-}
-
-.letter-recipient-name {
-  font-family: var(--font-serif);
-  font-size: clamp(22px, 5.5vw, 34px);
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  background: var(--color-gold-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 14px;
-  line-height: 1.25;
-  padding: 0 10px;
-}
-
-.letter-divider {
-  color: var(--color-gold-base);
-  font-size: 14px;
-  letter-spacing: 6px;
-  margin-bottom: 16px;
-  opacity: 0.85;
-}
-
+/* 3. GRADO */
 .letter-grade-badge {
   background: rgba(212, 175, 55, 0.12);
   border: 1px solid var(--color-gold-base);
   color: #ffffff;
   font-family: var(--font-sans);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 2.5px;
-  padding: 6px 22px;
+  padding: 8px 26px;
   border-radius: 30px;
   text-transform: uppercase;
   box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
   display: inline-block;
-}
-
-.letter-footer-hint {
-  margin-top: 24px;
-  font-size: 11px;
-  color: var(--color-cream-muted);
-  letter-spacing: 1.5px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  text-transform: uppercase;
-  animation: pulseHint 2s infinite;
-}
-
-@keyframes pulseHint {
-  0%, 100% { opacity: 0.5; transform: translateY(0); }
-  50% { opacity: 1; transform: translateY(-3px); }
 }
 
 /* ==========================================================================
