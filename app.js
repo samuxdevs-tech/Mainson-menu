@@ -481,6 +481,17 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function setupEventListeners() {
+  // Envelope / Letter Cover Click to Fade Out Event
+  const letterCover = document.getElementById("letterCover");
+  if (letterCover) {
+    letterCover.addEventListener("click", () => {
+      letterCover.classList.add("fading");
+      setTimeout(() => {
+        letterCover.style.display = "none";
+      }, 1800);
+    });
+  }
+
   // Subtle Language Toggle Event
   const langToggleBtn = document.getElementById("subtleLangToggle");
   if (langToggleBtn) {
