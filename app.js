@@ -37,65 +37,65 @@ const menuData = [
     }
   },
   {
-    id: "dona-vanille-praline",
+    id: "dona-chocolate-star-confetti",
+    category: "desserts",
+    image: "./assets/dona_truffe_gianduja.jpg",
+    isDonut: true,
+    badge: { en: "Executive Donut", es: "Dona de Autor" },
+    sensoryTags: ["cocoa", "roasted", "spiced"],
+    allergens: ["Gluten", "Dairy", "Eggs"],
+    title: {
+      en: "Chocolate Star & Confetti Donut",
+      es: "Dona Gourmet de Chocolate Étoile & Confetti"
+    },
+    shortDescription: {
+      en: "A long-fermented milk brioche dough matrix submerged in precision-controlled oil, coated in 70% single-origin Peruvian dark chocolate ganache, garnished with confetti dragées and precision-cut étoiles.",
+      es: "Masa brioche de leche de fermentación prolongada de 18h, cubierta de ganache de chocolate negro peruano 70%, drageas 'confetti' y estrellas de azúcar 'étoile'."
+    },
+    fullDescription: {
+      en: "A long-fermented milk brioche dough matrix, developed via a multi-stage proofing cycle of 18 hours. Submerged in precision-temperature-controlled high-oleic palm oil to achieve an even, closed cellular structure and optimal golden color. Coated in a decadent 70% single-origin Peruvian dark chocolate couverture ganache glaze, hand-dipped to ideal sheen. Garnished with a dual texture application: vibrant ‘confetti’ rod dragées and precision-cut multi-colored ‘étoile’ (star) garniture.",
+      es: "Una matriz de masa brioche de leche de fermentación prolongada desarrollada mediante un ciclo de fermentación multietapa de 18 horas. Sumergida en aceite de palma de alto contenido oleico a temperatura controlada de precisión para lograr una estructura celular uniforme y dorada. Cubierta con un decadente glaseado de ganache de cobertura de chocolate negro peruano del 70% de origen único, sumergido a mano. Decorada con drageas 'confetti' vibrantes y estrellas multicolor 'étoile' cortadas a precisión."
+    },
+    sensoryProfile: {
+      intensity: 75,
+      sweetness: 65,
+      acidity: 5,
+      texture: { en: "Pillowy & Rich", es: "Esponjosa y Rica" }
+    },
+    pairing: {
+      en: "Elegantly paired with a double-ristretto pull of a full-bodied Colombian Huila coffee, or perhaps a well-aged Tawny Port.",
+      es: "Elegantemente maridada con un espresso ristretto doble de café colombiano del Huila de cuerpo entero, o un oporto Tawny envejecido."
+    }
+  },
+  {
+    id: "dona-pink-berry-star",
     category: "desserts",
     image: "./assets/dona_vanille_praline.jpg",
     isDonut: true,
     badge: { en: "Executive Donut", es: "Dona de Autor" },
-    sensoryTags: ["roasted", "nutty", "caramel"],
-    allergens: ["Gluten", "Dairy", "Tree Nuts", "Eggs"],
+    sensoryTags: ["citrus", "floral", "refreshing"],
+    allergens: ["Gluten", "Dairy", "Eggs"],
     title: {
-      en: "Couronne Gourmande de Vanille & Praliné IGP",
-      es: "Couronne Gourmande de Vanille & Praliné IGP"
+      en: "Pink Berry Star Donut",
+      es: "Dona Royale de Fresas Silvestres & Étoile"
     },
     shortDescription: {
-      en: "48-hour slow-fermented Brioche Feuilletée donut glazed in Raiatea Tahitian vanilla, crowned with 65% Piedmont hazelnut praline.",
-      es: "Dona Brioche Feuilletée de 48h de fermentación hojaldrada, glaseada en Vainilla de Tahití Raiatea y praliné de Avellana del Piamonte IGP al 65%."
+      en: "Traditional long-fermented milk brioche flash-fried to precise contrast, hand-dipped in wild mountain strawberry coulis and white chocolate glaze, dusted with multi-colored precision étoiles.",
+      es: "Brioche de leche tradicional de fermentación prolongada, frita con precisión, glaseada a mano en coulis de fresas silvestres y chocolate blanco, decorada con estrellas multicolor 'étoile'."
     },
     fullDescription: {
-      en: "Formulated with a traditional Yudane pre-dough matrix for maximum crumb elasticity. Hand-laminated into 24 distinct layers with dry AOP butter, fried in clarified ghee, and filled with a slow-roasted Piedmont hazelnut praline crémeux. Coated in cold-infused Tahitian vanilla pod glaze.",
-      es: "Formulada con una masa base Yudane para máxima elasticidad de la miga. Hojaldrada artesanalmente en 24 capas con mantequilla seca AOP, frita en ghee clarificado y rellena de praliné de avellana de Piamonte tostada a baja temperatura. Glaseada con infusión fría de vainilla de Tahití."
+      en: "The same traditional long-fermented milk brioche dough matrix, proofed to ideal cellular density, flash-fried in premium vegetable oil to achieve precise textural contrast. Eglantine-infused coulis de fraises (wild mountain strawberries) and white chocolate emulsion-based glaze, meticulously hand-dipped for a high-gloss, even coat. Dusted with an intricate, multi-colored precision ‘étoile’ (star) garniture, meticulously applied by hand.",
+      es: "Matriz de masa brioche de leche tradicional de fermentación prolongada, fermentada hasta obtener la densidad celular ideal y frita en aceite vegetal de primera calidad para lograr un contraste de textura preciso. Glaseado a base de emulsión de chocolate blanco y coulis de fresas silvestres, bañado a mano para un acabado brillante. Espolvoreado con estrellas multicolor 'étoile' aplicadas a mano."
     },
     sensoryProfile: {
-      intensity: 85,
-      sweetness: 60,
-      acidity: 15,
-      texture: { en: "Flaky & Melt-in-Mouth", es: "Hojaldrada y Fundente" }
+      intensity: 70,
+      sweetness: 70,
+      acidity: 20,
+      texture: { en: "Soft & Velvety", es: "Suave y Aterciopelada" }
     },
     pairing: {
-      en: "Pairs elegantly with Single-Origin Ethiopian Yirgacheffe Espresso during morning strategy sessions.",
-      es: "Armoniza brillantemente con un Espresso Origen Único Etiopía Yirgacheffe durante sesiones estratégicas matutinas."
-    }
-  },
-  {
-    id: "dona-pistache-bronte",
-    category: "desserts",
-    image: "./assets/dona_pistache_bronte.jpg",
-    isDonut: true,
-    badge: { en: "Executive Donut", es: "Dona de Autor" },
-    sensoryTags: ["floral", "nutty", "citrus"],
-    allergens: ["Gluten", "Dairy", "Tree Nuts", "Eggs"],
-    title: {
-      en: "Le Beignet Royale de Pistache de Bronte & Neroli",
-      es: "Le Beignet Royale de Pistache de Bronte & Neroli"
-    },
-    shortDescription: {
-      en: "Sourdough brioche with Sicilian blood orange zest, filled with 160% overrun Bronte pistachio ganache montée and neroli blossom hydrosol.",
-      es: "Dona brioche de masa madre aromatizada con zeste de naranja sanguina, rellena de ganache montée de Pistacho de Bronte DOP y flor de azahar."
-    },
-    fullDescription: {
-      en: "Harvested biennially from Mount Etna's volcanic soil, un-roasted Bronte green pistachios yield a deep emerald ganache whipped to 160% overrun for an ethereal cloud texture. Infused with organic Moroccan orange blossom hydrosol and finished with gold dust.",
-      es: "Cosechados bianualmente en las laderas volcánicas del Monte Etna, los pistachos verdes de Bronte sin tostar producen una ganache montada al 160% de overrun para una textura etérea de nube. Infusionada con hidrolato de azahar marroquí y polvo de oro."
-    },
-    sensoryProfile: {
-      intensity: 80,
-      sweetness: 50,
-      acidity: 30,
-      texture: { en: "Ethereal & Cloud-like", es: "Etérea y Textura de Nube" }
-    },
-    pairing: {
-      en: "Recommended pairing: Uji Shade-Grown Gyokuro Green Tea or Franciacorta Brut.",
-      es: "Maridaje recomendado: Té Verde Gyokuro de Sombra de Uji o Franciacorta Brut."
+      en: "Pairs gracefully with chilled glasses of dry Rosé champagne or a delicate silver-needle white tea.",
+      es: "Armoniza de manera distinguida con copas heladas de Champagne Rosé seco o un delicado té blanco Aguja de Plata."
     }
   },
   {
@@ -256,34 +256,34 @@ const menuData = [
 
   // MILK-BASED BEVERAGES (BEBIDAS LÁCTEAS)
   {
-    id: "elixir-celeste-tahiti",
+    id: "vaso-leche-organica",
     category: "beverages",
     image: "./assets/elixir_celeste_tahiti.jpg",
     isDonut: false,
-    badge: { en: "Botanical Milk", es: "Leche Botánica" },
-    sensoryTags: ["spiced", "floral", "vanilla"],
-    allergens: ["Tree Nuts (Almond)"],
+    badge: { en: "Pure Artisan Milk", es: "Leche Orgánica de Origen" },
+    sensoryTags: ["creamy", "vanilla", "umami"],
+    allergens: ["Dairy"],
     title: {
-      en: "Tahitian Vanilla Elixir & Golden Almond Milk",
-      es: "Elixir Céleste de Vainilla de Tahití & Leche Dorada de Almendras"
+      en: "Verdant Alpine Whole Milk Glass",
+      es: "Vaso de Leche Entera Orgánica de Granja"
     },
     shortDescription: {
-      en: "Cold-pressed Majorcan almond milk, Lakadong organic turmeric, Tahitian vanilla, orange blossom honey, ultrasonic foam.",
-      es: "Leche de almendras de Mallorca en frío, cúrcuma Lakadong, vainilla de Tahití, miel de azahar y micro-espuma de ultrasonido."
+      en: "Pure 100% pasture-raised A2 whole milk from Alpine Jersey cows, unhomogenized and chilled to 4°C with natural golden cream undertones.",
+      es: "Vaso de leche entera 100% orgánica de vacas Jersey A2 de libre pastoreo, servida fría a 4°C, cremosa y con notas naturales de mantequilla y vainilla."
     },
     fullDescription: {
-      en: "Fresh cold-macerated sweet Majorcan almond milk blended with high-curcumin Lakadong turmeric, wild ginger juice, Raiatea Tahitian vanilla, and orange blossom honey. Micro-foamed using thermal ultrasonic technology.",
-      es: "Leche de almendras dulces de Mallorca macerada en frío, emulsionada con cúrcuma Lakadong de alta pureza, jengibre silvestre, vainilla Tahitensis y miel de azahar. Texturizada con ultrasonido térmico."
+      en: "Pure 100% pasture-raised A2 whole milk sourced from free-roaming Alpine Jersey cows. Served unhomogenized and chilled to precisely 4°C to preserve its natural golden cream top, velvety mouthfeel, and delicate sweet vanilla-cream undertones.",
+      es: "Leche entera pura 100% de pastoreo A2 proveniente de vacas Jersey alpinas. Servida sin homogeneizar y fría a exactamente 4°C para conservar su capa de crema dorada natural, cuerpo aterciopelado y delicados matices dulces de vainilla."
     },
     sensoryProfile: {
-      intensity: 70,
-      sweetness: 40,
-      acidity: 20,
-      texture: { en: "Warm & Silky Fluid", es: "Fluido Cálido y Sedoso" }
+      intensity: 60,
+      sweetness: 45,
+      acidity: 5,
+      texture: { en: "Creamy & Pure Silk", es: "Cremosa y Seda Pura" }
     },
     pairing: {
-      en: "Perfect non-alcoholic executive beverage for afternoon focus sessions.",
-      es: "Bebida ejecutiva sin alcohol perfecta para sesiones de enfoque por la tarde."
+      en: "The quintessential pairing for artisanal gourmet brioche donuts and executive morning tastings.",
+      es: "El maridaje esencial e icónico para acompañar donas brioche gourmet y catas ejecutivas matutinas."
     }
   },
   {
